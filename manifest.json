@@ -1,0 +1,24 @@
+{
+
+  "description": "Ferramentas",
+  "manifest_version": 2,
+  "name": "ZehTools",
+  "version": "1.0",
+  "homepage_url": "https://github.com/ZehLuckmann",
+  "icons": {
+    "48": "icons/tools.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/tools.png"
+  }
+  
+  "web_accessible_resources": [
+    "apps/*.*",
+  ]
+
+}
